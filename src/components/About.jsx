@@ -2,7 +2,9 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[#261341] text-gray-300'>
+    <div name='about' className='w-full h-screen text-gray-300'
+    style={{ background: 'linear-gradient(90deg, hsla(293, 82%, 47%, 0.808) 0%, hsl(22.67deg 90.8% 46.71%) 100%)' }}>
+    
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
@@ -14,7 +16,7 @@ const About = () => {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Muhammad Bilal, nice to meet you. Please take a look around.</p>
+              <p>Abeera Javaid</p>
             </div>
             <div>
               <p>I am passionate about building excellent software that improves
